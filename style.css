@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color:#FFFFFF;
+    background-color: #31363F;
+    
+}
+.bar{
+    display: none;
+}
+nav{
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 12px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav p{
+    margin: 0px 12px;
+}
+nav button{
+    padding: 6px 12px;
+    border-radius: 7px;
+}
+nav button a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    width: 90%;
+}
+.left{
+    width: 40%;
+}
+.left h1{
+    font-size: xx-large;
+}
+.left p{
+    font-size: larger;
+    line-height: 2rem;
+
+}
+.home img{
+    width: 30%;
+    border-radius: 50%;
+}
+.link{
+    margin: 24px 0px;
+}
+.link a{
+    font-size:x-large ;
+    color: black;}
+
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill img{
+    width: 80px;
+}
+.cont2{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 24px 12px;
+    transition: .3s;
+    border-radius: 7px;
+}
+.Projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 24px 12px;
+    align-items: center;
+    width: 30%;
+    transition: .5s;
+    border-radius: 7px;
+}
+.box2 img{
+    
+    height: 200px;
+    margin: 12px 0px;
+}
+.box2 p{
+    margin: 12px 0px;
+}
+main h1{
+    margin:12px 0px;
+}
+footer h1{
+    margin: 12px 0px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px ;
+}
+.cont4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.or{
+    margin:0px 5rem
+}
+footer form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer form input{
+    padding: 2px 12px;
+    outline: none;
+    border: .5px solid gray;
+    margin:1px 0px;
+}
+footer form button{
+    margin: 1px 0px;
+    padding: 4px;
+}
+footer form button{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box:hover{
+    box-shadow: rgba(160, 160, 160, 0.25) 0px 54px 55px, rgba(160, 160, 160, 0.25) 0px -12px 30px, rgba(160, 160, 160, 0.25) 0px 4px 6px, rgba(160, 160, 160, 0.25) 0px 12px 13px, rgba(160, 160, 160, 0.25) 0px -3px 5px;
+
+}
+.box2:hover{
+    box-shadow: rgba(160, 160, 160, 0.25) 0px 54px 55px, rgba(160, 160, 160, 0.25) 0px -12px 30px, rgba(160, 160, 160, 0.25) 0px 4px 6px, rgba(160, 160, 160, 0.25) 0px 12px 13px, rgba(160, 160, 160, 0.25) 0px -3px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+.home{
+    height: auto;
+}
+}
+
+@media(max-width:470px){
+    nav{
+        align-items: center;
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        margin: 12px 0px;
+    }
+    nav ul li{
+        padding: 6px 3px;
+    }
+    .home{
+        height: auto;
+    }
+    .container{
+        flex-direction: column;
+        display: none;
+    }
+    .bar{
+        display:block;
+    }
+    .logo{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .home{
+        flex-direction: column-reverse;
+        height: auto;
+        width: 90%;
+    }
+    .home img{
+        border-radius: 12rem;
+        width: 90%;
+    }
+    .left{
+        width: 90%;
+    }
+    .box{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .cont4{
+        flex-direction: column;
+    }
+    
+}
